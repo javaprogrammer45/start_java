@@ -153,16 +153,16 @@ public class VariableNamesTheme {
         System.out.println("3. Аббревиатуры ");
 
         //Старый universally unique identifier
-        int deprecatedUUI = 5;
-        System.out.println("Старый universally unique identifier = " + deprecatedUUI);
+        int deprecatedUui = 5;
+        System.out.println("Старый universally unique identifier = " + deprecatedUui);
 
         //Производитель оперативной памяти
-        String manufacturerRAM = "AMD";
-        System.out.println("Производитель оперативной памяти = " + manufacturerRAM);
+        String manufacturerRam = "AMD";
+        System.out.println("Производитель оперативной памяти = " + manufacturerRam);
 
         //Ёмкость жесткого диска
-        int capacityHD = 50;
-        System.out.println("Ёмкость жесткого диска = " + capacityHD);
+        int capacityHd = 50;
+        System.out.println("Ёмкость жесткого диска = " + capacityHd);
 
         //Протокол передачи гипертекста
         String http = "HTTP";
