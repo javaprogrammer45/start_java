@@ -2,7 +2,7 @@ package Lesson1;
 
 import java.math.BigDecimal;
 
-public class IfElseStatementThem {
+public class IfElseStatementTheme {
     public static void main(String[] args) {
         System.out.println("Task number 1 - Перевод псевдокода на язык Java");
         boolean isMaleGender = false;
