@@ -12,8 +12,8 @@ public class VariableNamesTheme {
         System.out.println("Cумма чисел = " + amountNumbers);
 
         //Произведение цифр
-        int productOfDigits = 78;
-        System.out.println("Произведение цифр = " + productOfDigits);
+        int productDigits = 78;
+        System.out.println("Произведение цифр = " + productDigits);
 
         // Максимальное число
         int maxNumber = 101;
@@ -24,28 +24,28 @@ public class VariableNamesTheme {
         System.out.println("Количество десятков = " + quantityTens);
 
         //Вес собаки
-        int weightOfDogs = 30;
-        System.out.println("Вес собаки = " + weightOfDogs);
+        int weightDogs = 30;
+        System.out.println("Вес собаки = " + weightDogs);
 
         //Исходное число
         int originalNumber = 56;
         System.out.println("Исходное число = " + originalNumber);
 
         //Процент по вкладу
-        int percentOnDeposit = 15;
-        System.out.println("Процент по вкладу = " + percentOnDeposit);
+        int percentDeposit = 15;
+        System.out.println("Процент по вкладу = " + percentDeposit);
 
         //Переменная хранит символ &
         char symbol = '&';
         System.out.println("Переменная хранит символ = " + symbol);
 
         //Код ошибки
-        String codeOfError = "0xc00000e9";
-        System.out.println("Код ошибки : " + codeOfError);
+        String errorCode = "0xc00000e9";
+        System.out.println("Код ошибки : " + errorCode);
 
         //Тип сообщения
-        String request = "POST";
-        System.out.println("Тип сообщения : " + request);
+        String typeMassage = "POST";
+        System.out.println("Тип сообщения : " + typeMassage);
 
         //Число нулей
         int numberZeros = 7;
@@ -86,12 +86,12 @@ public class VariableNamesTheme {
         System.out.println("Дата начала = " + startDate);
 
         //Окончание диапазона
-        int endOfRange = 6;
-        System.out.println("Окончание диапазона = " + endOfRange);
+        int endRange = 6;
+        System.out.println("Окончание диапазона = " + endRange);
 
         //Полное имя работника месяца
-        String fullNameOfEmployeeOfTheMonth = "Sergey Sergeev";
-        System.out.println("Полное имя работника месяца = " + fullNameOfEmployeeOfTheMonth);
+        String fullNameEmployeeMonth = "Sergey Sergeev";
+        System.out.println("Полное имя работника месяца = " + fullNameEmployeeMonth);
 
         //Заголовок электронной книги
         String eBookTitle = "eBookTitle";
@@ -114,8 +114,8 @@ public class VariableNamesTheme {
         System.out.println("Путь до файла = " + pathToFile);
 
         //Количество чисел в каждой строке
-        int quantityOfNumbersInTheEveryLine = 101;
-        System.out.println("Количество чисел в каждой строке = " + quantityOfNumbersInTheEveryLine);
+        int quantityNumbersEveryLine = 101;
+        System.out.println("Количество чисел в каждой строке = " + quantityNumbersEveryLine);
 
         System.out.println("2. Boolean-переменные");
         //Сотни равны?
@@ -123,8 +123,8 @@ public class VariableNamesTheme {
         System.out.println("Сотни равны? = " + isEqualsHundreds);
 
         //Компьютер включен?
-        boolean isYourComputerTurnedOn = false;
-        System.out.println("Компьютер включен? = " + isYourComputerTurnedOn);
+        boolean isComputerTurnedOn = false;
+        System.out.println("Компьютер включен? = " + isComputerTurnedOn);
 
         //Есть равные цифры?
         boolean isEqualsDigits = true;
@@ -147,8 +147,8 @@ public class VariableNamesTheme {
         System.out.println("Новое? = " + isNew);
 
         //Электронная почта действительная?
-        boolean isTheEmailValid = true;
-        System.out.println("Электронная почта действительная? = " + isTheEmailValid);
+        boolean isEmailValid = true;
+        System.out.println("Электронная почта действительная? = " + isEmailValid);
 
         //Имеются уникальные строки?
         boolean isUniqueStrings = true;
@@ -157,8 +157,8 @@ public class VariableNamesTheme {
         System.out.println("3. Аббревиатуры ");
 
         //Старый universally unique identifier
-        int deprecatedUui = 5;
-        System.out.println("Старый universally unique identifier = " + deprecatedUui);
+        int deprecatedUuid = 5;
+        System.out.println("Старый universally unique identifier = " + deprecatedUuid);
 
         //Производитель оперативной памяти
         String manufacturerRam = "AMD";
@@ -173,8 +173,8 @@ public class VariableNamesTheme {
         System.out.println("Протокол передачи гипертекста = " + http);
 
         //Сокращенный uniform resource locator
-        String url = "URL";
-        System.out.println("Сокращенный uniform resource locator = " + url);
+        String abbreviatedUrl = "URL";
+        System.out.println("Сокращенный uniform resource locator = " +  abbreviatedUrl);
 
         //American standard code for information interchange
         String ascii = "ASCII";
