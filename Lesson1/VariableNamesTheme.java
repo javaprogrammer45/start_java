@@ -71,9 +71,11 @@ public class VariableNamesTheme {
 
         //Максимальная длина
         int maxLength = 10;
+        System.out.println("Максимальная длина = " + maxLength);
 
-        //Пункт меню
+        //Максимальная длина
         int menuItem = 5;
+        System.out.println("Максимальная длина = " + menuItem);
 
         //Стоимость кофе
         int coffeeCost = 78;
@@ -89,6 +91,7 @@ public class VariableNamesTheme {
 
         //Полное имя работника месяца
         String fullNameOfEmployeeOfTheMonth = "Sergey Sergeev";
+        System.out.println("Полное имя работника месяца = " + fullNameOfEmployeeOfTheMonth);
 
         //Заголовок электронной книги
         String eBookTitle = "eBookTitle";
@@ -108,6 +111,7 @@ public class VariableNamesTheme {
 
         //Путь до файла
         String pathToFile = "C:\\Users\\Sergey Sergeev\\Desktop\\";
+        System.out.println("Путь до файла = " + pathToFile);
 
         //Количество чисел в каждой строке
         int quantityOfNumbersInTheEveryLine = 101;
@@ -116,7 +120,7 @@ public class VariableNamesTheme {
         System.out.println("2. Boolean-переменные");
         //Сотни равны?
         boolean isEqualsHundreds = true;
-        System.out.println("Сотни равны? = ");
+        System.out.println("Сотни равны? = " + isEqualsHundreds);
 
         //Компьютер включен?
         boolean isYourComputerTurnedOn = false;
@@ -175,7 +179,6 @@ public class VariableNamesTheme {
         //American standard code for information interchange
         String ascii = "ASCII";
         System.out.println("American standard code for information interchange = " + ascii);
-
 
 
     }
