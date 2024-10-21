@@ -66,7 +66,7 @@ public class VariablesTheme {
         int five = 5; //101
         System.out.println(two + "\n" + five);
         System.out.println("С помощью третьей переменной");
-        int tmp = 0;
+        int tmp;
         tmp = two;
         two = five;
         five = tmp;
@@ -102,11 +102,11 @@ public class VariablesTheme {
         char f = (char) thi;
         char g = (char) four;
         char h = (char) fifth;
-        System.out.println(" " + " " + " " + " " + a + "" + b);
-        System.out.println(" " + " " + " " + a + " " + " " + b);
-        System.out.println(" " + " " + a + h + f + " " + g + b);
-        System.out.println(" " + a + " " + " " + " " + " " + " " + " " + b);
-        System.out.println(a + "" + h + h + h + h + a + "" + b + h + h + b);
+        System.out.println(" " + " " + " " + " " + a + " " + b);
+        System.out.println(" " + " " + " " + a + " " + " " + " " + b);
+        System.out.println(" " + " " + a + h + f + " " + g + " " + b);
+        System.out.println(" " + a + " " + " " + " " + " " + " " + " " + " " + b);
+        System.out.println(a + "" + h + h + h + h + a + " " + b + h + h + b);
 
         System.out.println("8.Манипуляции с сотнями, десятками и единицами числа");
         int num = 123;
