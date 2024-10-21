@@ -11,7 +11,7 @@ public class IfElseStatementTheme {
         } else {
             System.out.println("Female gender");
         }
-        int age=18;
+        int age = 18;
         if (age > 18) {
             System.out.println("He(she) is adult");
         } else {
@@ -140,7 +140,8 @@ public class IfElseStatementTheme {
         }
         float averageGrade = (float) (gradeProgramming + gradeHistory) / 2;
         float averagePrecent = (float) (history + programming) / 2;
-        System.out.println("History: " + gradeHistory + "\n" + "Programming: " + gradeProgramming + "\n" + "Average grade: " + averageGrade + "\n" + "Average precent: " + averagePrecent);
+        System.out.println("History: " + gradeHistory + "\n" + "Programming: " + gradeProgramming + "\n" +
+                "Average grade: " + averageGrade + "\n" + "Average precent: " + averagePrecent);
 
         System.out.println("Task number 8 - Расчет годовой прибыли");
         float goodsAreSoldMonthly = 13025.233f;
@@ -161,7 +162,8 @@ public class IfElseStatementTheme {
             BigDecimal amountTotal = moneyOfAmount.add(prec).setScale(2, BigDecimal.ROUND_DOWN);
             System.out.println("Сумма начисленного процента: " + prec + "\n" + "Итоговая сумма: " + amountTotal);
         } else if (moneyOfAmount.floatValue() >= 100000f && moneyOfAmount.floatValue() <= 300000f) {
-            BigDecimal prec = moneyOfAmount.divide(new BigDecimal(100), 2, BigDecimal.ROUND_DOWN).multiply(new BigDecimal(7));
+            BigDecimal prec = moneyOfAmount.divide(new BigDecimal(100), 2,
+                    BigDecimal.ROUND_DOWN).multiply(new BigDecimal(7));
             BigDecimal amountTotal = moneyOfAmount.add(prec).setScale(2, BigDecimal.ROUND_DOWN);
             System.out.println("Сумма начисленного процента: " + prec + "\n" + "Итоговая сумма: " + amountTotal);
         } else if (moneyOfAmount.floatValue() > 300000f) {
