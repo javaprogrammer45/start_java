@@ -6,12 +6,12 @@ public class IfElseStatementTheme {
     public static void main(String[] args) {
         System.out.println("Task number 1 - Перевод псевдокода на язык Java");
         boolean isMaleGender = false;
-        int age = 20;
         if (!isMaleGender) {
             System.out.println("Male gender");
         } else {
             System.out.println("Female gender");
         }
+        int age=18;
         if (age > 18) {
             System.out.println("He(she) is adult");
         } else {
